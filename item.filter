@@ -951,9 +951,9 @@ ItemDisplay[NMAG !(CL6 OR WP11 OR WP12 OR WP13 OR leg) SOCK=1 CLVL>5]: //Ignore 
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Ignore all non-magical gloves, boots, and belts. (Level 6+)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[NMAG EQ4 CLVL>5]: //Ignore Gloves
-ItemDisplay[NMAG EQ5 CLVL>5]: //Ignore Boots
-ItemDisplay[NMAG EQ6 CLVL>5]: //Ignnore Belts
+ItemDisplay[NMAG EQ4 CLVL>70]: //Ignore Gloves
+ItemDisplay[NMAG EQ5 CLVL>70]: //Ignore Boots
+ItemDisplay[NMAG EQ6 CLVL>70]: //Ignnore Belts
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Ignore all non-elite non-magical non-ethereal equipment that have no sockets and are not
 // superior. (Level 6+)
